@@ -1,0 +1,3368 @@
+
+> f1-race-reminder@1.0.0 start
+> node src/index.js
+
+{
+  "metadata": {
+    "timestamp": "2026-08-21T17:09:31.298141Z"
+  },
+  "data": {
+    "id": "season_HuT7dnRb",
+    "url": "https://api.jolpi.ca/f1/alpha/schedules/2026/",
+    "year": 2026,
+    "wikipedia": "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship",
+    "events": [
+      {
+        "round": {
+          "id": "round_46HucC4K",
+          "url": "https://api.jolpi.ca/f1/alpha/core/rounds/round_46HucC4K/",
+          "number": 1,
+          "name": "Australian Grand Prix",
+          "is_cancelled": false,
+          "race_number": 1150,
+          "wikipedia": "https://en.wikipedia.org/wiki/2026_Australian_Grand_Prix"
+        },
+        "circuit": {
+          "id": "circuit_5jHWvmoM",
+          "url": "https://api.jolpi.ca/f1/alpha/core/circuits/circuit_5jHWvmoM/",
+          "name": "Albert Park Grand Prix Circuit",
+          "locality": "Melbourne",
+          "country_code": "AUS",
+          "country": "Australia",
+          "latitude": -37.8497,
+          "longitude": 144.968,
+          "altitude": 10,
+          "wikipedia": "https://en.wikipedia.org/wiki/Albert_Park_Circuit"
+        },
+        "schedule": [
+          {
+            "code": "FP1",
+            "title": "Practice 1",
+            "sessions": [
+              {
+                "id": "session_x9VyNzyf",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_x9VyNzyf/",
+                "number": 1,
+                "type": "FP1",
+                "type_display": "Practice One",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-03-06T01:30:00Z",
+            "local_timestamp": "2026-03-06 12:30:00+11:00",
+            "timezone": "Australia/Melbourne",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_46HucC4K/FP1/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_46HucC4K/FP1/"
+          },
+          {
+            "code": "FP2",
+            "title": "Practice 2",
+            "sessions": [
+              {
+                "id": "session_eZ6VC5mk",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_eZ6VC5mk/",
+                "number": 2,
+                "type": "FP2",
+                "type_display": "Practice Two",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-03-06T05:00:00Z",
+            "local_timestamp": "2026-03-06 16:00:00+11:00",
+            "timezone": "Australia/Melbourne",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_46HucC4K/FP2/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_46HucC4K/FP2/"
+          },
+          {
+            "code": "FP3",
+            "title": "Practice 3",
+            "sessions": [
+              {
+                "id": "session_JYqYWS0V",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_JYqYWS0V/",
+                "number": 3,
+                "type": "FP3",
+                "type_display": "Practice Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-03-07T01:30:00Z",
+            "local_timestamp": "2026-03-07 12:30:00+11:00",
+            "timezone": "Australia/Melbourne",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_46HucC4K/FP3/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_46HucC4K/FP3/"
+          },
+          {
+            "code": "Q",
+            "title": "Qualifying",
+            "sessions": [
+              {
+                "id": "session_WtTB2TUL",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_WtTB2TUL/",
+                "number": 4,
+                "type": "Q1",
+                "type_display": "Qualifying One",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_iR0fV4zb",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_iR0fV4zb/",
+                "number": 5,
+                "type": "Q2",
+                "type_display": "Qualifying Two",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_UcztmG2B",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_UcztmG2B/",
+                "number": 6,
+                "type": "Q3",
+                "type_display": "Qualifying Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-03-07T05:00:00Z",
+            "local_timestamp": "2026-03-07 16:00:00+11:00",
+            "timezone": "Australia/Melbourne",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_46HucC4K/Q/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_46HucC4K/Q/"
+          },
+          {
+            "code": "R",
+            "title": "Race",
+            "sessions": [
+              {
+                "id": "session_xIvziIIQ",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_xIvziIIQ/",
+                "number": 7,
+                "type": "R",
+                "type_display": "Race",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-03-08T04:00:00Z",
+            "local_timestamp": "2026-03-08 15:00:00+11:00",
+            "timezone": "Australia/Melbourne",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_46HucC4K/R/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_46HucC4K/R/"
+          }
+        ]
+      },
+      {
+        "round": {
+          "id": "round_JqmngOvt",
+          "url": "https://api.jolpi.ca/f1/alpha/core/rounds/round_JqmngOvt/",
+          "number": 2,
+          "name": "Chinese Grand Prix",
+          "is_cancelled": false,
+          "race_number": 1151,
+          "wikipedia": "https://en.wikipedia.org/wiki/2026_Chinese_Grand_Prix"
+        },
+        "circuit": {
+          "id": "circuit_UZRLsrE2",
+          "url": "https://api.jolpi.ca/f1/alpha/core/circuits/circuit_UZRLsrE2/",
+          "name": "Shanghai International Circuit",
+          "locality": "Shanghai",
+          "country_code": "CHN",
+          "country": "China",
+          "latitude": 31.3389,
+          "longitude": 121.22,
+          "altitude": 5,
+          "wikipedia": "https://en.wikipedia.org/wiki/Shanghai_International_Circuit"
+        },
+        "schedule": [
+          {
+            "code": "FP1",
+            "title": "Practice 1",
+            "sessions": [
+              {
+                "id": "session_nlTwyapH",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_nlTwyapH/",
+                "number": 1,
+                "type": "FP1",
+                "type_display": "Practice One",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-03-13T03:30:00Z",
+            "local_timestamp": "2026-03-13 11:30:00+08:00",
+            "timezone": "Asia/Shanghai",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_JqmngOvt/FP1/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_JqmngOvt/FP1/"
+          },
+          {
+            "code": "SQ",
+            "title": "Sprint Qualifying",
+            "sessions": [
+              {
+                "id": "session_H9dO2crt",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_H9dO2crt/",
+                "number": 2,
+                "type": "SQ1",
+                "type_display": "Sprint Qualifying One",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_witDyul2",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_witDyul2/",
+                "number": 3,
+                "type": "SQ2",
+                "type_display": "Sprint Qualifying Two",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_Gfhwke9C",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_Gfhwke9C/",
+                "number": 4,
+                "type": "SQ3",
+                "type_display": "Sprint Qualifying Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-03-13T07:30:00Z",
+            "local_timestamp": "2026-03-13 15:30:00+08:00",
+            "timezone": "Asia/Shanghai",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_JqmngOvt/SQ/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_JqmngOvt/SQ/"
+          },
+          {
+            "code": "SR",
+            "title": "Sprint Race",
+            "sessions": [
+              {
+                "id": "session_gHQWaGYg",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_gHQWaGYg/",
+                "number": 5,
+                "type": "SR",
+                "type_display": "Sprint Race",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-03-14T03:00:00Z",
+            "local_timestamp": "2026-03-14 11:00:00+08:00",
+            "timezone": "Asia/Shanghai",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_JqmngOvt/SR/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_JqmngOvt/SR/"
+          },
+          {
+            "code": "Q",
+            "title": "Qualifying",
+            "sessions": [
+              {
+                "id": "session_MTRWkmT6",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_MTRWkmT6/",
+                "number": 6,
+                "type": "Q1",
+                "type_display": "Qualifying One",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_Gvt6ZcEn",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_Gvt6ZcEn/",
+                "number": 7,
+                "type": "Q2",
+                "type_display": "Qualifying Two",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_mMBtYNbh",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_mMBtYNbh/",
+                "number": 8,
+                "type": "Q3",
+                "type_display": "Qualifying Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-03-14T07:00:00Z",
+            "local_timestamp": "2026-03-14 15:00:00+08:00",
+            "timezone": "Asia/Shanghai",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_JqmngOvt/Q/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_JqmngOvt/Q/"
+          },
+          {
+            "code": "R",
+            "title": "Race",
+            "sessions": [
+              {
+                "id": "session_SWXajES2",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_SWXajES2/",
+                "number": 9,
+                "type": "R",
+                "type_display": "Race",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-03-15T07:00:00Z",
+            "local_timestamp": "2026-03-15 15:00:00+08:00",
+            "timezone": "Asia/Shanghai",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_JqmngOvt/R/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_JqmngOvt/R/"
+          }
+        ]
+      },
+      {
+        "round": {
+          "id": "round_9fXol7IF",
+          "url": "https://api.jolpi.ca/f1/alpha/core/rounds/round_9fXol7IF/",
+          "number": 3,
+          "name": "Japanese Grand Prix",
+          "is_cancelled": false,
+          "race_number": 1152,
+          "wikipedia": "https://en.wikipedia.org/wiki/2026_Japanese_Grand_Prix"
+        },
+        "circuit": {
+          "id": "circuit_0Bbz8sT8",
+          "url": "https://api.jolpi.ca/f1/alpha/core/circuits/circuit_0Bbz8sT8/",
+          "name": "Suzuka Circuit",
+          "locality": "Suzuka",
+          "country_code": "JPN",
+          "country": "Japan",
+          "latitude": 34.8431,
+          "longitude": 136.541,
+          "altitude": 45,
+          "wikipedia": "https://en.wikipedia.org/wiki/Suzuka_International_Racing_Course"
+        },
+        "schedule": [
+          {
+            "code": "FP1",
+            "title": "Practice 1",
+            "sessions": [
+              {
+                "id": "session_x1LbcOLr",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_x1LbcOLr/",
+                "number": 1,
+                "type": "FP1",
+                "type_display": "Practice One",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-03-27T02:30:00Z",
+            "local_timestamp": "2026-03-27 11:30:00+09:00",
+            "timezone": "Asia/Tokyo",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_9fXol7IF/FP1/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_9fXol7IF/FP1/"
+          },
+          {
+            "code": "FP2",
+            "title": "Practice 2",
+            "sessions": [
+              {
+                "id": "session_cGLLAz1t",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_cGLLAz1t/",
+                "number": 2,
+                "type": "FP2",
+                "type_display": "Practice Two",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-03-27T06:00:00Z",
+            "local_timestamp": "2026-03-27 15:00:00+09:00",
+            "timezone": "Asia/Tokyo",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_9fXol7IF/FP2/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_9fXol7IF/FP2/"
+          },
+          {
+            "code": "FP3",
+            "title": "Practice 3",
+            "sessions": [
+              {
+                "id": "session_yIc8oA5Z",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_yIc8oA5Z/",
+                "number": 3,
+                "type": "FP3",
+                "type_display": "Practice Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-03-28T02:30:00Z",
+            "local_timestamp": "2026-03-28 11:30:00+09:00",
+            "timezone": "Asia/Tokyo",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_9fXol7IF/FP3/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_9fXol7IF/FP3/"
+          },
+          {
+            "code": "Q",
+            "title": "Qualifying",
+            "sessions": [
+              {
+                "id": "session_wwIXlQw6",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_wwIXlQw6/",
+                "number": 4,
+                "type": "Q1",
+                "type_display": "Qualifying One",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_fj8NVpvu",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_fj8NVpvu/",
+                "number": 5,
+                "type": "Q2",
+                "type_display": "Qualifying Two",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_2OQORsVo",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_2OQORsVo/",
+                "number": 6,
+                "type": "Q3",
+                "type_display": "Qualifying Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-03-28T06:00:00Z",
+            "local_timestamp": "2026-03-28 15:00:00+09:00",
+            "timezone": "Asia/Tokyo",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_9fXol7IF/Q/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_9fXol7IF/Q/"
+          },
+          {
+            "code": "R",
+            "title": "Race",
+            "sessions": [
+              {
+                "id": "session_jAhaH2aG",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_jAhaH2aG/",
+                "number": 7,
+                "type": "R",
+                "type_display": "Race",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-03-29T05:00:00Z",
+            "local_timestamp": "2026-03-29 14:00:00+09:00",
+            "timezone": "Asia/Tokyo",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_9fXol7IF/R/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_9fXol7IF/R/"
+          }
+        ]
+      },
+      {
+        "round": {
+          "id": "round_01d4Qacj",
+          "url": "https://api.jolpi.ca/f1/alpha/core/rounds/round_01d4Qacj/",
+          "number": 4,
+          "name": "Miami Grand Prix",
+          "is_cancelled": false,
+          "race_number": 1153,
+          "wikipedia": "https://en.wikipedia.org/wiki/2026_Miami_Grand_Prix"
+        },
+        "circuit": {
+          "id": "circuit_nukLDdFs",
+          "url": "https://api.jolpi.ca/f1/alpha/core/circuits/circuit_nukLDdFs/",
+          "name": "Miami International Autodrome",
+          "locality": "Miami",
+          "country_code": "USA",
+          "country": "USA",
+          "latitude": 25.9581,
+          "longitude": -80.2389,
+          "altitude": 0,
+          "wikipedia": "https://en.wikipedia.org/wiki/Miami_International_Autodrome"
+        },
+        "schedule": [
+          {
+            "code": "FP1",
+            "title": "Practice 1",
+            "sessions": [
+              {
+                "id": "session_DFWSkeaP",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_DFWSkeaP/",
+                "number": 1,
+                "type": "FP1",
+                "type_display": "Practice One",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-05-01T16:00:00Z",
+            "local_timestamp": "2026-05-01 12:00:00-04:00",
+            "timezone": "America/New_York",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_01d4Qacj/FP1/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_01d4Qacj/FP1/"
+          },
+          {
+            "code": "SQ",
+            "title": "Sprint Qualifying",
+            "sessions": [
+              {
+                "id": "session_4cmQcsgw",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_4cmQcsgw/",
+                "number": 2,
+                "type": "SQ1",
+                "type_display": "Sprint Qualifying One",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_mQFXXKtk",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_mQFXXKtk/",
+                "number": 3,
+                "type": "SQ2",
+                "type_display": "Sprint Qualifying Two",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_KHh8arjG",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_KHh8arjG/",
+                "number": 4,
+                "type": "SQ3",
+                "type_display": "Sprint Qualifying Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-05-01T20:30:00Z",
+            "local_timestamp": "2026-05-01 16:30:00-04:00",
+            "timezone": "America/New_York",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_01d4Qacj/SQ/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_01d4Qacj/SQ/"
+          },
+          {
+            "code": "SR",
+            "title": "Sprint Race",
+            "sessions": [
+              {
+                "id": "session_RkzCH07A",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_RkzCH07A/",
+                "number": 5,
+                "type": "SR",
+                "type_display": "Sprint Race",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-05-02T16:00:00Z",
+            "local_timestamp": "2026-05-02 12:00:00-04:00",
+            "timezone": "America/New_York",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_01d4Qacj/SR/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_01d4Qacj/SR/"
+          },
+          {
+            "code": "Q",
+            "title": "Qualifying",
+            "sessions": [
+              {
+                "id": "session_bj2kpjw2",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_bj2kpjw2/",
+                "number": 6,
+                "type": "Q1",
+                "type_display": "Qualifying One",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_RnuheiNL",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_RnuheiNL/",
+                "number": 7,
+                "type": "Q2",
+                "type_display": "Qualifying Two",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_qszmhLB2",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_qszmhLB2/",
+                "number": 8,
+                "type": "Q3",
+                "type_display": "Qualifying Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-05-02T20:00:00Z",
+            "local_timestamp": "2026-05-02 16:00:00-04:00",
+            "timezone": "America/New_York",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_01d4Qacj/Q/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_01d4Qacj/Q/"
+          },
+          {
+            "code": "R",
+            "title": "Race",
+            "sessions": [
+              {
+                "id": "session_SSDAB0sp",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_SSDAB0sp/",
+                "number": 9,
+                "type": "R",
+                "type_display": "Race",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-05-03T20:00:00Z",
+            "local_timestamp": "2026-05-03 16:00:00-04:00",
+            "timezone": "America/New_York",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_01d4Qacj/R/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_01d4Qacj/R/"
+          }
+        ]
+      },
+      {
+        "round": {
+          "id": "round_TFkjXvlD",
+          "url": "https://api.jolpi.ca/f1/alpha/core/rounds/round_TFkjXvlD/",
+          "number": 5,
+          "name": "Canadian Grand Prix",
+          "is_cancelled": false,
+          "race_number": 1154,
+          "wikipedia": "https://en.wikipedia.org/wiki/2026_Canadian_Grand_Prix"
+        },
+        "circuit": {
+          "id": "circuit_xo04lqNS",
+          "url": "https://api.jolpi.ca/f1/alpha/core/circuits/circuit_xo04lqNS/",
+          "name": "Circuit Gilles Villeneuve",
+          "locality": "Montreal",
+          "country_code": "CAN",
+          "country": "Canada",
+          "latitude": 45.5,
+          "longitude": -73.5228,
+          "altitude": 13,
+          "wikipedia": "https://en.wikipedia.org/wiki/Circuit_Gilles_Villeneuve"
+        },
+        "schedule": [
+          {
+            "code": "FP1",
+            "title": "Practice 1",
+            "sessions": [
+              {
+                "id": "session_ECfr1zJC",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_ECfr1zJC/",
+                "number": 1,
+                "type": "FP1",
+                "type_display": "Practice One",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-05-22T16:30:00Z",
+            "local_timestamp": "2026-05-22 12:30:00-04:00",
+            "timezone": "America/Montreal",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_TFkjXvlD/FP1/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_TFkjXvlD/FP1/"
+          },
+          {
+            "code": "SQ",
+            "title": "Sprint Qualifying",
+            "sessions": [
+              {
+                "id": "session_MM4MFnxx",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_MM4MFnxx/",
+                "number": 2,
+                "type": "SQ1",
+                "type_display": "Sprint Qualifying One",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_kStdhpLE",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_kStdhpLE/",
+                "number": 3,
+                "type": "SQ2",
+                "type_display": "Sprint Qualifying Two",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_YszlsICk",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_YszlsICk/",
+                "number": 4,
+                "type": "SQ3",
+                "type_display": "Sprint Qualifying Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-05-22T20:30:00Z",
+            "local_timestamp": "2026-05-22 16:30:00-04:00",
+            "timezone": "America/Montreal",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_TFkjXvlD/SQ/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_TFkjXvlD/SQ/"
+          },
+          {
+            "code": "SR",
+            "title": "Sprint Race",
+            "sessions": [
+              {
+                "id": "session_wWpfGjKB",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_wWpfGjKB/",
+                "number": 5,
+                "type": "SR",
+                "type_display": "Sprint Race",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-05-23T16:00:00Z",
+            "local_timestamp": "2026-05-23 12:00:00-04:00",
+            "timezone": "America/Montreal",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_TFkjXvlD/SR/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_TFkjXvlD/SR/"
+          },
+          {
+            "code": "Q",
+            "title": "Qualifying",
+            "sessions": [
+              {
+                "id": "session_cm1m6OAw",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_cm1m6OAw/",
+                "number": 6,
+                "type": "Q1",
+                "type_display": "Qualifying One",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_jqh03W44",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_jqh03W44/",
+                "number": 7,
+                "type": "Q2",
+                "type_display": "Qualifying Two",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_OMkaXSmH",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_OMkaXSmH/",
+                "number": 8,
+                "type": "Q3",
+                "type_display": "Qualifying Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-05-23T20:00:00Z",
+            "local_timestamp": "2026-05-23 16:00:00-04:00",
+            "timezone": "America/Montreal",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_TFkjXvlD/Q/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_TFkjXvlD/Q/"
+          },
+          {
+            "code": "R",
+            "title": "Race",
+            "sessions": [
+              {
+                "id": "session_rsNXegik",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_rsNXegik/",
+                "number": 9,
+                "type": "R",
+                "type_display": "Race",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-05-24T20:00:00Z",
+            "local_timestamp": "2026-05-24 16:00:00-04:00",
+            "timezone": "America/Montreal",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_TFkjXvlD/R/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_TFkjXvlD/R/"
+          }
+        ]
+      },
+      {
+        "round": {
+          "id": "round_haMdTaCK",
+          "url": "https://api.jolpi.ca/f1/alpha/core/rounds/round_haMdTaCK/",
+          "number": 6,
+          "name": "Monaco Grand Prix",
+          "is_cancelled": false,
+          "race_number": 1155,
+          "wikipedia": "https://en.wikipedia.org/wiki/2026_Monaco_Grand_Prix"
+        },
+        "circuit": {
+          "id": "circuit_r30Ojrot",
+          "url": "https://api.jolpi.ca/f1/alpha/core/circuits/circuit_r30Ojrot/",
+          "name": "Circuit de Monaco",
+          "locality": "Monte Carlo",
+          "country_code": "MCO",
+          "country": "Monaco",
+          "latitude": 43.7347,
+          "longitude": 7.42056,
+          "altitude": 7,
+          "wikipedia": "https://en.wikipedia.org/wiki/Circuit_de_Monaco"
+        },
+        "schedule": [
+          {
+            "code": "FP1",
+            "title": "Practice 1",
+            "sessions": [
+              {
+                "id": "session_01tso9mf",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_01tso9mf/",
+                "number": 1,
+                "type": "FP1",
+                "type_display": "Practice One",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-06-05T11:30:00Z",
+            "local_timestamp": "2026-06-05 13:30:00+02:00",
+            "timezone": "Europe/Monaco",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_haMdTaCK/FP1/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_haMdTaCK/FP1/"
+          },
+          {
+            "code": "FP2",
+            "title": "Practice 2",
+            "sessions": [
+              {
+                "id": "session_our4dLjW",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_our4dLjW/",
+                "number": 2,
+                "type": "FP2",
+                "type_display": "Practice Two",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-06-05T15:00:00Z",
+            "local_timestamp": "2026-06-05 17:00:00+02:00",
+            "timezone": "Europe/Monaco",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_haMdTaCK/FP2/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_haMdTaCK/FP2/"
+          },
+          {
+            "code": "FP3",
+            "title": "Practice 3",
+            "sessions": [
+              {
+                "id": "session_C5g8mkET",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_C5g8mkET/",
+                "number": 3,
+                "type": "FP3",
+                "type_display": "Practice Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-06-06T10:30:00Z",
+            "local_timestamp": "2026-06-06 12:30:00+02:00",
+            "timezone": "Europe/Monaco",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_haMdTaCK/FP3/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_haMdTaCK/FP3/"
+          },
+          {
+            "code": "Q",
+            "title": "Qualifying",
+            "sessions": [
+              {
+                "id": "session_HJL9jfFW",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_HJL9jfFW/",
+                "number": 4,
+                "type": "Q1",
+                "type_display": "Qualifying One",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_kJ9ROIhr",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_kJ9ROIhr/",
+                "number": 5,
+                "type": "Q2",
+                "type_display": "Qualifying Two",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_gKGRXEyi",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_gKGRXEyi/",
+                "number": 6,
+                "type": "Q3",
+                "type_display": "Qualifying Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-06-06T14:00:00Z",
+            "local_timestamp": "2026-06-06 16:00:00+02:00",
+            "timezone": "Europe/Monaco",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_haMdTaCK/Q/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_haMdTaCK/Q/"
+          },
+          {
+            "code": "R",
+            "title": "Race",
+            "sessions": [
+              {
+                "id": "session_uwruP4rf",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_uwruP4rf/",
+                "number": 9,
+                "type": "R",
+                "type_display": "Race",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-06-07T13:00:00Z",
+            "local_timestamp": "2026-06-07 09:00:00-04:00",
+            "timezone": "America/New_York",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_haMdTaCK/R/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_haMdTaCK/R/"
+          }
+        ]
+      },
+      {
+        "round": {
+          "id": "round_oJLKMXh3",
+          "url": "https://api.jolpi.ca/f1/alpha/core/rounds/round_oJLKMXh3/",
+          "number": 7,
+          "name": "Barcelona Grand Prix",
+          "is_cancelled": false,
+          "race_number": 1156,
+          "wikipedia": "https://en.wikipedia.org/wiki/2026_Barcelona-Catalunya"
+        },
+        "circuit": {
+          "id": "circuit_Yxr9ajWK",
+          "url": "https://api.jolpi.ca/f1/alpha/core/circuits/circuit_Yxr9ajWK/",
+          "name": "Circuit de Barcelona-Catalunya",
+          "locality": "Barcelona",
+          "country_code": "ESP",
+          "country": "Spain",
+          "latitude": 41.57,
+          "longitude": 2.26111,
+          "altitude": 109,
+          "wikipedia": "https://en.wikipedia.org/wiki/Circuit_de_Barcelona-Catalunya"
+        },
+        "schedule": [
+          {
+            "code": "FP1",
+            "title": "Practice 1",
+            "sessions": [
+              {
+                "id": "session_xfD14DyE",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_xfD14DyE/",
+                "number": 1,
+                "type": "FP1",
+                "type_display": "Practice One",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-06-12T11:30:00Z",
+            "local_timestamp": "2026-06-12 13:30:00+02:00",
+            "timezone": "Europe/Madrid",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_oJLKMXh3/FP1/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_oJLKMXh3/FP1/"
+          },
+          {
+            "code": "FP2",
+            "title": "Practice 2",
+            "sessions": [
+              {
+                "id": "session_KAZLFKhP",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_KAZLFKhP/",
+                "number": 2,
+                "type": "FP2",
+                "type_display": "Practice Two",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-06-12T15:00:00Z",
+            "local_timestamp": "2026-06-12 17:00:00+02:00",
+            "timezone": "Europe/Madrid",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_oJLKMXh3/FP2/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_oJLKMXh3/FP2/"
+          },
+          {
+            "code": "FP3",
+            "title": "Practice 3",
+            "sessions": [
+              {
+                "id": "session_az0q7uH0",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_az0q7uH0/",
+                "number": 3,
+                "type": "FP3",
+                "type_display": "Practice Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-06-13T10:30:00Z",
+            "local_timestamp": "2026-06-13 12:30:00+02:00",
+            "timezone": "Europe/Madrid",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_oJLKMXh3/FP3/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_oJLKMXh3/FP3/"
+          },
+          {
+            "code": "Q",
+            "title": "Qualifying",
+            "sessions": [
+              {
+                "id": "session_Cly4OjTu",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_Cly4OjTu/",
+                "number": 4,
+                "type": "Q1",
+                "type_display": "Qualifying One",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_j1tZWa3b",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_j1tZWa3b/",
+                "number": 5,
+                "type": "Q2",
+                "type_display": "Qualifying Two",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_v214NMze",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_v214NMze/",
+                "number": 6,
+                "type": "Q3",
+                "type_display": "Qualifying Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-06-13T14:00:00Z",
+            "local_timestamp": "2026-06-13 16:00:00+02:00",
+            "timezone": "Europe/Madrid",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_oJLKMXh3/Q/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_oJLKMXh3/Q/"
+          },
+          {
+            "code": "R",
+            "title": "Race",
+            "sessions": [
+              {
+                "id": "session_lDx4SmAi",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_lDx4SmAi/",
+                "number": 7,
+                "type": "R",
+                "type_display": "Race",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-06-14T13:00:00Z",
+            "local_timestamp": "2026-06-14 15:00:00+02:00",
+            "timezone": "Europe/Madrid",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_oJLKMXh3/R/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_oJLKMXh3/R/"
+          }
+        ]
+      },
+      {
+        "round": {
+          "id": "round_iD1C6J1b",
+          "url": "https://api.jolpi.ca/f1/alpha/core/rounds/round_iD1C6J1b/",
+          "number": 8,
+          "name": "Austrian Grand Prix",
+          "is_cancelled": false,
+          "race_number": 1157,
+          "wikipedia": "https://en.wikipedia.org/wiki/2026_Austrian_Grand_Prix"
+        },
+        "circuit": {
+          "id": "circuit_VrXQoBf5",
+          "url": "https://api.jolpi.ca/f1/alpha/core/circuits/circuit_VrXQoBf5/",
+          "name": "Red Bull Ring",
+          "locality": "Spielberg",
+          "country_code": "AUT",
+          "country": "Austria",
+          "latitude": 47.2197,
+          "longitude": 14.7647,
+          "altitude": 678,
+          "wikipedia": "https://en.wikipedia.org/wiki/Red_Bull_Ring"
+        },
+        "schedule": [
+          {
+            "code": "FP1",
+            "title": "Practice 1",
+            "sessions": [
+              {
+                "id": "session_kvNs7aMz",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_kvNs7aMz/",
+                "number": 1,
+                "type": "FP1",
+                "type_display": "Practice One",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-06-26T11:30:00Z",
+            "local_timestamp": "2026-06-26 13:30:00+02:00",
+            "timezone": "Europe/Vienna",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_iD1C6J1b/FP1/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_iD1C6J1b/FP1/"
+          },
+          {
+            "code": "FP2",
+            "title": "Practice 2",
+            "sessions": [
+              {
+                "id": "session_f4ftlkWP",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_f4ftlkWP/",
+                "number": 2,
+                "type": "FP2",
+                "type_display": "Practice Two",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-06-26T15:00:00Z",
+            "local_timestamp": "2026-06-26 17:00:00+02:00",
+            "timezone": "Europe/Vienna",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_iD1C6J1b/FP2/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_iD1C6J1b/FP2/"
+          },
+          {
+            "code": "FP3",
+            "title": "Practice 3",
+            "sessions": [
+              {
+                "id": "session_jEPaa8Zg",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_jEPaa8Zg/",
+                "number": 3,
+                "type": "FP3",
+                "type_display": "Practice Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-06-27T10:30:00Z",
+            "local_timestamp": "2026-06-27 12:30:00+02:00",
+            "timezone": "Europe/Vienna",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_iD1C6J1b/FP3/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_iD1C6J1b/FP3/"
+          },
+          {
+            "code": "Q",
+            "title": "Qualifying",
+            "sessions": [
+              {
+                "id": "session_ROQvSkDw",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_ROQvSkDw/",
+                "number": 4,
+                "type": "Q1",
+                "type_display": "Qualifying One",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_76zzT5CP",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_76zzT5CP/",
+                "number": 5,
+                "type": "Q2",
+                "type_display": "Qualifying Two",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_VRVMRc79",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_VRVMRc79/",
+                "number": 6,
+                "type": "Q3",
+                "type_display": "Qualifying Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-06-27T14:00:00Z",
+            "local_timestamp": "2026-06-27 16:00:00+02:00",
+            "timezone": "Europe/Vienna",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_iD1C6J1b/Q/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_iD1C6J1b/Q/"
+          },
+          {
+            "code": "R",
+            "title": "Race",
+            "sessions": [
+              {
+                "id": "session_RNFVI8I3",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_RNFVI8I3/",
+                "number": 7,
+                "type": "R",
+                "type_display": "Race",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-06-28T13:00:00Z",
+            "local_timestamp": "2026-06-28 15:00:00+02:00",
+            "timezone": "Europe/Vienna",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_iD1C6J1b/R/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_iD1C6J1b/R/"
+          }
+        ]
+      },
+      {
+        "round": {
+          "id": "round_XIS0uRlu",
+          "url": "https://api.jolpi.ca/f1/alpha/core/rounds/round_XIS0uRlu/",
+          "number": 9,
+          "name": "British Grand Prix",
+          "is_cancelled": false,
+          "race_number": 1158,
+          "wikipedia": "https://en.wikipedia.org/wiki/2026_British_Grand_Prix"
+        },
+        "circuit": {
+          "id": "circuit_W8rwFAJs",
+          "url": "https://api.jolpi.ca/f1/alpha/core/circuits/circuit_W8rwFAJs/",
+          "name": "Silverstone Circuit",
+          "locality": "Silverstone",
+          "country_code": "GBR",
+          "country": "UK",
+          "latitude": 52.0786,
+          "longitude": -1.01694,
+          "altitude": 153,
+          "wikipedia": "https://en.wikipedia.org/wiki/Silverstone_Circuit"
+        },
+        "schedule": [
+          {
+            "code": "FP1",
+            "title": "Practice 1",
+            "sessions": [
+              {
+                "id": "session_JdGaM9pk",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_JdGaM9pk/",
+                "number": 1,
+                "type": "FP1",
+                "type_display": "Practice One",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-07-03T11:30:00Z",
+            "local_timestamp": "2026-07-03 12:30:00+01:00",
+            "timezone": "Europe/London",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_XIS0uRlu/FP1/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_XIS0uRlu/FP1/"
+          },
+          {
+            "code": "SQ",
+            "title": "Sprint Qualifying",
+            "sessions": [
+              {
+                "id": "session_I0Qsp1ro",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_I0Qsp1ro/",
+                "number": 2,
+                "type": "SQ1",
+                "type_display": "Sprint Qualifying One",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_DNZ5b5lW",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_DNZ5b5lW/",
+                "number": 3,
+                "type": "SQ2",
+                "type_display": "Sprint Qualifying Two",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_MnIDsgr5",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_MnIDsgr5/",
+                "number": 4,
+                "type": "SQ3",
+                "type_display": "Sprint Qualifying Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-07-03T15:30:00Z",
+            "local_timestamp": "2026-07-03 16:30:00+01:00",
+            "timezone": "Europe/London",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_XIS0uRlu/SQ/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_XIS0uRlu/SQ/"
+          },
+          {
+            "code": "SR",
+            "title": "Sprint Race",
+            "sessions": [
+              {
+                "id": "session_HIkHgNBB",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_HIkHgNBB/",
+                "number": 5,
+                "type": "SR",
+                "type_display": "Sprint Race",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-07-04T11:00:00Z",
+            "local_timestamp": "2026-07-04 12:00:00+01:00",
+            "timezone": "Europe/London",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_XIS0uRlu/SR/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_XIS0uRlu/SR/"
+          },
+          {
+            "code": "Q",
+            "title": "Qualifying",
+            "sessions": [
+              {
+                "id": "session_vptg0toa",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_vptg0toa/",
+                "number": 6,
+                "type": "Q1",
+                "type_display": "Qualifying One",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_IBwYLnfK",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_IBwYLnfK/",
+                "number": 7,
+                "type": "Q2",
+                "type_display": "Qualifying Two",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_zbiN9RE7",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_zbiN9RE7/",
+                "number": 8,
+                "type": "Q3",
+                "type_display": "Qualifying Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-07-04T15:00:00Z",
+            "local_timestamp": "2026-07-04 16:00:00+01:00",
+            "timezone": "Europe/London",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_XIS0uRlu/Q/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_XIS0uRlu/Q/"
+          },
+          {
+            "code": "R",
+            "title": "Race",
+            "sessions": [
+              {
+                "id": "session_omdVZQUq",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_omdVZQUq/",
+                "number": 9,
+                "type": "R",
+                "type_display": "Race",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-07-05T14:00:00Z",
+            "local_timestamp": "2026-07-05 15:00:00+01:00",
+            "timezone": "Europe/London",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_XIS0uRlu/R/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_XIS0uRlu/R/"
+          }
+        ]
+      },
+      {
+        "round": {
+          "id": "round_9K3rFCix",
+          "url": "https://api.jolpi.ca/f1/alpha/core/rounds/round_9K3rFCix/",
+          "number": 10,
+          "name": "Belgian Grand Prix",
+          "is_cancelled": false,
+          "race_number": 1159,
+          "wikipedia": "https://en.wikipedia.org/wiki/2026_Belgian_Grand_Prix"
+        },
+        "circuit": {
+          "id": "circuit_agKQuDST",
+          "url": "https://api.jolpi.ca/f1/alpha/core/circuits/circuit_agKQuDST/",
+          "name": "Circuit de Spa-Francorchamps",
+          "locality": "Spa",
+          "country_code": "BEL",
+          "country": "Belgium",
+          "latitude": 50.4372,
+          "longitude": 5.97139,
+          "altitude": 401,
+          "wikipedia": "https://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps"
+        },
+        "schedule": [
+          {
+            "code": "FP1",
+            "title": "Practice 1",
+            "sessions": [
+              {
+                "id": "session_dWGkvRjk",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_dWGkvRjk/",
+                "number": 1,
+                "type": "FP1",
+                "type_display": "Practice One",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-07-17T11:30:00Z",
+            "local_timestamp": "2026-07-17 13:30:00+02:00",
+            "timezone": "Europe/Brussels",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_9K3rFCix/FP1/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_9K3rFCix/FP1/"
+          },
+          {
+            "code": "FP2",
+            "title": "Practice 2",
+            "sessions": [
+              {
+                "id": "session_v89OgEdo",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_v89OgEdo/",
+                "number": 2,
+                "type": "FP2",
+                "type_display": "Practice Two",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-07-17T15:00:00Z",
+            "local_timestamp": "2026-07-17 17:00:00+02:00",
+            "timezone": "Europe/Brussels",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_9K3rFCix/FP2/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_9K3rFCix/FP2/"
+          },
+          {
+            "code": "FP3",
+            "title": "Practice 3",
+            "sessions": [
+              {
+                "id": "session_V5Yn4gAS",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_V5Yn4gAS/",
+                "number": 3,
+                "type": "FP3",
+                "type_display": "Practice Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-07-18T10:30:00Z",
+            "local_timestamp": "2026-07-18 12:30:00+02:00",
+            "timezone": "Europe/Brussels",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_9K3rFCix/FP3/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_9K3rFCix/FP3/"
+          },
+          {
+            "code": "Q",
+            "title": "Qualifying",
+            "sessions": [
+              {
+                "id": "session_eQnlypmU",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_eQnlypmU/",
+                "number": 4,
+                "type": "Q1",
+                "type_display": "Qualifying One",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_j4VfcdXE",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_j4VfcdXE/",
+                "number": 5,
+                "type": "Q2",
+                "type_display": "Qualifying Two",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_fbglMTNm",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_fbglMTNm/",
+                "number": 6,
+                "type": "Q3",
+                "type_display": "Qualifying Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-07-18T14:00:00Z",
+            "local_timestamp": "2026-07-18 16:00:00+02:00",
+            "timezone": "Europe/Brussels",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_9K3rFCix/Q/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_9K3rFCix/Q/"
+          },
+          {
+            "code": "R",
+            "title": "Race",
+            "sessions": [
+              {
+                "id": "session_l2u5wCb4",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_l2u5wCb4/",
+                "number": 7,
+                "type": "R",
+                "type_display": "Race",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-07-19T13:00:00Z",
+            "local_timestamp": "2026-07-19 15:00:00+02:00",
+            "timezone": "Europe/Brussels",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_9K3rFCix/R/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_9K3rFCix/R/"
+          }
+        ]
+      },
+      {
+        "round": {
+          "id": "round_SftqlqVl",
+          "url": "https://api.jolpi.ca/f1/alpha/core/rounds/round_SftqlqVl/",
+          "number": 11,
+          "name": "Hungarian Grand Prix",
+          "is_cancelled": false,
+          "race_number": 1160,
+          "wikipedia": "https://en.wikipedia.org/wiki/2026_Hungarian_Grand_Prix"
+        },
+        "circuit": {
+          "id": "circuit_pd4fBIQZ",
+          "url": "https://api.jolpi.ca/f1/alpha/core/circuits/circuit_pd4fBIQZ/",
+          "name": "Hungaroring",
+          "locality": "Budapest",
+          "country_code": "HUN",
+          "country": "Hungary",
+          "latitude": 47.5789,
+          "longitude": 19.2486,
+          "altitude": 264,
+          "wikipedia": "https://en.wikipedia.org/wiki/Hungaroring"
+        },
+        "schedule": [
+          {
+            "code": "FP1",
+            "title": "Practice 1",
+            "sessions": [
+              {
+                "id": "session_9YVmfsRv",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_9YVmfsRv/",
+                "number": 1,
+                "type": "FP1",
+                "type_display": "Practice One",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-07-24T11:30:00Z",
+            "local_timestamp": "2026-07-24 13:30:00+02:00",
+            "timezone": "Europe/Budapest",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_SftqlqVl/FP1/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_SftqlqVl/FP1/"
+          },
+          {
+            "code": "FP2",
+            "title": "Practice 2",
+            "sessions": [
+              {
+                "id": "session_ywo6eOZK",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_ywo6eOZK/",
+                "number": 2,
+                "type": "FP2",
+                "type_display": "Practice Two",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-07-24T15:00:00Z",
+            "local_timestamp": "2026-07-24 17:00:00+02:00",
+            "timezone": "Europe/Budapest",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_SftqlqVl/FP2/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_SftqlqVl/FP2/"
+          },
+          {
+            "code": "FP3",
+            "title": "Practice 3",
+            "sessions": [
+              {
+                "id": "session_M7XWuInH",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_M7XWuInH/",
+                "number": 3,
+                "type": "FP3",
+                "type_display": "Practice Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-07-25T10:30:00Z",
+            "local_timestamp": "2026-07-25 12:30:00+02:00",
+            "timezone": "Europe/Budapest",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_SftqlqVl/FP3/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_SftqlqVl/FP3/"
+          },
+          {
+            "code": "Q",
+            "title": "Qualifying",
+            "sessions": [
+              {
+                "id": "session_I4Jh7FtG",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_I4Jh7FtG/",
+                "number": 4,
+                "type": "Q1",
+                "type_display": "Qualifying One",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_X32KG49c",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_X32KG49c/",
+                "number": 5,
+                "type": "Q2",
+                "type_display": "Qualifying Two",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_Wy1YKcN9",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_Wy1YKcN9/",
+                "number": 6,
+                "type": "Q3",
+                "type_display": "Qualifying Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-07-25T14:00:00Z",
+            "local_timestamp": "2026-07-25 16:00:00+02:00",
+            "timezone": "Europe/Budapest",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_SftqlqVl/Q/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_SftqlqVl/Q/"
+          },
+          {
+            "code": "R",
+            "title": "Race",
+            "sessions": [
+              {
+                "id": "session_0k0YXJ0Z",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_0k0YXJ0Z/",
+                "number": 7,
+                "type": "R",
+                "type_display": "Race",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-07-26T13:00:00Z",
+            "local_timestamp": "2026-07-26 15:00:00+02:00",
+            "timezone": "Europe/Budapest",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_SftqlqVl/R/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_SftqlqVl/R/"
+          }
+        ]
+      },
+      {
+        "round": {
+          "id": "round_OlKoikhn",
+          "url": "https://api.jolpi.ca/f1/alpha/core/rounds/round_OlKoikhn/",
+          "number": 12,
+          "name": "Dutch Grand Prix",
+          "is_cancelled": false,
+          "race_number": 1161,
+          "wikipedia": "https://en.wikipedia.org/wiki/2026_Dutch_Grand_Prix"
+        },
+        "circuit": {
+          "id": "circuit_OLNnxVES",
+          "url": "https://api.jolpi.ca/f1/alpha/core/circuits/circuit_OLNnxVES/",
+          "name": "Circuit Park Zandvoort",
+          "locality": "Zandvoort",
+          "country_code": "NLD",
+          "country": "Netherlands",
+          "latitude": 52.3888,
+          "longitude": 4.54092,
+          "altitude": 6,
+          "wikipedia": "https://en.wikipedia.org/wiki/Circuit_Zandvoort"
+        },
+        "schedule": [
+          {
+            "code": "FP1",
+            "title": "Practice 1",
+            "sessions": [
+              {
+                "id": "session_B8lKePlU",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_B8lKePlU/",
+                "number": 1,
+                "type": "FP1",
+                "type_display": "Practice One",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-08-21T10:30:00Z",
+            "local_timestamp": "2026-08-21 12:30:00+02:00",
+            "timezone": "Europe/Amsterdam",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_OlKoikhn/FP1/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_OlKoikhn/FP1/"
+          },
+          {
+            "code": "SQ",
+            "title": "Sprint Qualifying",
+            "sessions": [
+              {
+                "id": "session_ApLcmkXY",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_ApLcmkXY/",
+                "number": 2,
+                "type": "SQ1",
+                "type_display": "Sprint Qualifying One",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_0opMTiI8",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_0opMTiI8/",
+                "number": 3,
+                "type": "SQ2",
+                "type_display": "Sprint Qualifying Two",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_JREbtrhI",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_JREbtrhI/",
+                "number": 4,
+                "type": "SQ3",
+                "type_display": "Sprint Qualifying Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-08-21T14:30:00Z",
+            "local_timestamp": "2026-08-21 16:30:00+02:00",
+            "timezone": "Europe/Amsterdam",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_OlKoikhn/SQ/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_OlKoikhn/SQ/"
+          },
+          {
+            "code": "SR",
+            "title": "Sprint Race",
+            "sessions": [
+              {
+                "id": "session_RxCzs9dG",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_RxCzs9dG/",
+                "number": 5,
+                "type": "SR",
+                "type_display": "Sprint Race",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-08-22T10:00:00Z",
+            "local_timestamp": "2026-08-22 12:00:00+02:00",
+            "timezone": "Europe/Amsterdam",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_OlKoikhn/SR/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_OlKoikhn/SR/"
+          },
+          {
+            "code": "Q",
+            "title": "Qualifying",
+            "sessions": [
+              {
+                "id": "session_V84Cho0U",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_V84Cho0U/",
+                "number": 6,
+                "type": "Q1",
+                "type_display": "Qualifying One",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_Ezk1kbUu",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_Ezk1kbUu/",
+                "number": 7,
+                "type": "Q2",
+                "type_display": "Qualifying Two",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_ysObZQwN",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_ysObZQwN/",
+                "number": 8,
+                "type": "Q3",
+                "type_display": "Qualifying Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-08-22T14:00:00Z",
+            "local_timestamp": "2026-08-22 16:00:00+02:00",
+            "timezone": "Europe/Amsterdam",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_OlKoikhn/Q/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_OlKoikhn/Q/"
+          },
+          {
+            "code": "R",
+            "title": "Race",
+            "sessions": [
+              {
+                "id": "session_X3KnmFXV",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_X3KnmFXV/",
+                "number": 9,
+                "type": "R",
+                "type_display": "Race",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-08-23T13:00:00Z",
+            "local_timestamp": "2026-08-23 15:00:00+02:00",
+            "timezone": "Europe/Amsterdam",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_OlKoikhn/R/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_OlKoikhn/R/"
+          }
+        ]
+      },
+      {
+        "round": {
+          "id": "round_rcsVMlOc",
+          "url": "https://api.jolpi.ca/f1/alpha/core/rounds/round_rcsVMlOc/",
+          "number": 13,
+          "name": "Italian Grand Prix",
+          "is_cancelled": false,
+          "race_number": 1162,
+          "wikipedia": "https://en.wikipedia.org/wiki/2026_Italian_Grand_Prix"
+        },
+        "circuit": {
+          "id": "circuit_vmT5q8o7",
+          "url": "https://api.jolpi.ca/f1/alpha/core/circuits/circuit_vmT5q8o7/",
+          "name": "Autodromo Nazionale di Monza",
+          "locality": "Monza",
+          "country_code": "ITA",
+          "country": "Italy",
+          "latitude": 45.6156,
+          "longitude": 9.28111,
+          "altitude": 162,
+          "wikipedia": "https://en.wikipedia.org/wiki/Monza_Circuit"
+        },
+        "schedule": [
+          {
+            "code": "FP1",
+            "title": "Practice 1",
+            "sessions": [
+              {
+                "id": "session_EstoR4zv",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_EstoR4zv/",
+                "number": 1,
+                "type": "FP1",
+                "type_display": "Practice One",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-09-04T10:30:00Z",
+            "local_timestamp": "2026-09-04 12:30:00+02:00",
+            "timezone": "Europe/Rome",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_rcsVMlOc/FP1/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_rcsVMlOc/FP1/"
+          },
+          {
+            "code": "FP2",
+            "title": "Practice 2",
+            "sessions": [
+              {
+                "id": "session_k64oMsWi",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_k64oMsWi/",
+                "number": 2,
+                "type": "FP2",
+                "type_display": "Practice Two",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-09-04T14:00:00Z",
+            "local_timestamp": "2026-09-04 16:00:00+02:00",
+            "timezone": "Europe/Rome",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_rcsVMlOc/FP2/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_rcsVMlOc/FP2/"
+          },
+          {
+            "code": "FP3",
+            "title": "Practice 3",
+            "sessions": [
+              {
+                "id": "session_16hF7dYK",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_16hF7dYK/",
+                "number": 3,
+                "type": "FP3",
+                "type_display": "Practice Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-09-05T10:30:00Z",
+            "local_timestamp": "2026-09-05 12:30:00+02:00",
+            "timezone": "Europe/Rome",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_rcsVMlOc/FP3/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_rcsVMlOc/FP3/"
+          },
+          {
+            "code": "Q",
+            "title": "Qualifying",
+            "sessions": [
+              {
+                "id": "session_qb8kzIgz",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_qb8kzIgz/",
+                "number": 4,
+                "type": "Q1",
+                "type_display": "Qualifying One",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_0yjQC41I",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_0yjQC41I/",
+                "number": 5,
+                "type": "Q2",
+                "type_display": "Qualifying Two",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_ymDQobcT",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_ymDQobcT/",
+                "number": 6,
+                "type": "Q3",
+                "type_display": "Qualifying Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-09-05T14:00:00Z",
+            "local_timestamp": "2026-09-05 16:00:00+02:00",
+            "timezone": "Europe/Rome",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_rcsVMlOc/Q/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_rcsVMlOc/Q/"
+          },
+          {
+            "code": "R",
+            "title": "Race",
+            "sessions": [
+              {
+                "id": "session_p72FTXwN",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_p72FTXwN/",
+                "number": 7,
+                "type": "R",
+                "type_display": "Race",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-09-06T13:00:00Z",
+            "local_timestamp": "2026-09-06 15:00:00+02:00",
+            "timezone": "Europe/Rome",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_rcsVMlOc/R/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_rcsVMlOc/R/"
+          }
+        ]
+      },
+      {
+        "round": {
+          "id": "round_lxBo1wL0",
+          "url": "https://api.jolpi.ca/f1/alpha/core/rounds/round_lxBo1wL0/",
+          "number": 14,
+          "name": "Spanish Grand Prix",
+          "is_cancelled": false,
+          "race_number": 1163,
+          "wikipedia": "https://en.wikipedia.org/wiki/2026_Spanish_Grand_Prix"
+        },
+        "circuit": {
+          "id": "circuit_AkJjYbDY",
+          "url": "https://api.jolpi.ca/f1/alpha/core/circuits/circuit_AkJjYbDY/",
+          "name": "Madring",
+          "locality": "Madrid",
+          "country_code": "ESP",
+          "country": "Spain",
+          "latitude": 40.46528,
+          "longitude": -3.61528,
+          "altitude": 697,
+          "wikipedia": "https://en.wikipedia.org/wiki/Madring"
+        },
+        "schedule": [
+          {
+            "code": "FP1",
+            "title": "Practice 1",
+            "sessions": [
+              {
+                "id": "session_tN6pK0Wk",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_tN6pK0Wk/",
+                "number": 1,
+                "type": "FP1",
+                "type_display": "Practice One",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-09-11T11:30:00Z",
+            "local_timestamp": "2026-09-11 13:30:00+02:00",
+            "timezone": "Europe/Madrid",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_lxBo1wL0/FP1/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_lxBo1wL0/FP1/"
+          },
+          {
+            "code": "FP2",
+            "title": "Practice 2",
+            "sessions": [
+              {
+                "id": "session_VMKwE852",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_VMKwE852/",
+                "number": 2,
+                "type": "FP2",
+                "type_display": "Practice Two",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-09-11T15:00:00Z",
+            "local_timestamp": "2026-09-11 17:00:00+02:00",
+            "timezone": "Europe/Madrid",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_lxBo1wL0/FP2/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_lxBo1wL0/FP2/"
+          },
+          {
+            "code": "FP3",
+            "title": "Practice 3",
+            "sessions": [
+              {
+                "id": "session_WlHQ7FUZ",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_WlHQ7FUZ/",
+                "number": 3,
+                "type": "FP3",
+                "type_display": "Practice Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-09-12T10:30:00Z",
+            "local_timestamp": "2026-09-12 12:30:00+02:00",
+            "timezone": "Europe/Madrid",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_lxBo1wL0/FP3/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_lxBo1wL0/FP3/"
+          },
+          {
+            "code": "Q",
+            "title": "Qualifying",
+            "sessions": [
+              {
+                "id": "session_rjIYvS0h",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_rjIYvS0h/",
+                "number": 4,
+                "type": "Q1",
+                "type_display": "Qualifying One",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_xdHdQ3hF",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_xdHdQ3hF/",
+                "number": 5,
+                "type": "Q2",
+                "type_display": "Qualifying Two",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_OGNzmnow",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_OGNzmnow/",
+                "number": 6,
+                "type": "Q3",
+                "type_display": "Qualifying Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-09-12T14:00:00Z",
+            "local_timestamp": "2026-09-12 16:00:00+02:00",
+            "timezone": "Europe/Madrid",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_lxBo1wL0/Q/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_lxBo1wL0/Q/"
+          },
+          {
+            "code": "R",
+            "title": "Race",
+            "sessions": [
+              {
+                "id": "session_j2OZHd0t",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_j2OZHd0t/",
+                "number": 7,
+                "type": "R",
+                "type_display": "Race",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-09-13T13:00:00Z",
+            "local_timestamp": "2026-09-13 15:00:00+02:00",
+            "timezone": "Europe/Madrid",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_lxBo1wL0/R/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_lxBo1wL0/R/"
+          }
+        ]
+      },
+      {
+        "round": {
+          "id": "round_St4SXfGd",
+          "url": "https://api.jolpi.ca/f1/alpha/core/rounds/round_St4SXfGd/",
+          "number": 15,
+          "name": "Azerbaijan Grand Prix",
+          "is_cancelled": false,
+          "race_number": 1164,
+          "wikipedia": "https://en.wikipedia.org/wiki/2026_Azerbaijan_Grand_Prix"
+        },
+        "circuit": {
+          "id": "circuit_l6rYoxTr",
+          "url": "https://api.jolpi.ca/f1/alpha/core/circuits/circuit_l6rYoxTr/",
+          "name": "Baku City Circuit",
+          "locality": "Baku",
+          "country_code": "AZE",
+          "country": "Azerbaijan",
+          "latitude": 40.3725,
+          "longitude": 49.8533,
+          "altitude": -7,
+          "wikipedia": "https://en.wikipedia.org/wiki/Baku_City_Circuit"
+        },
+        "schedule": [
+          {
+            "code": "FP1",
+            "title": "Practice 1",
+            "sessions": [
+              {
+                "id": "session_FjBlkYqg",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_FjBlkYqg/",
+                "number": 1,
+                "type": "FP1",
+                "type_display": "Practice One",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-09-24T08:30:00Z",
+            "local_timestamp": "2026-09-24 12:30:00+04:00",
+            "timezone": "Asia/Baku",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_St4SXfGd/FP1/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_St4SXfGd/FP1/"
+          },
+          {
+            "code": "FP2",
+            "title": "Practice 2",
+            "sessions": [
+              {
+                "id": "session_eN2PE4PR",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_eN2PE4PR/",
+                "number": 2,
+                "type": "FP2",
+                "type_display": "Practice Two",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-09-24T12:00:00Z",
+            "local_timestamp": "2026-09-24 16:00:00+04:00",
+            "timezone": "Asia/Baku",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_St4SXfGd/FP2/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_St4SXfGd/FP2/"
+          },
+          {
+            "code": "FP3",
+            "title": "Practice 3",
+            "sessions": [
+              {
+                "id": "session_pT0Kntlu",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_pT0Kntlu/",
+                "number": 3,
+                "type": "FP3",
+                "type_display": "Practice Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-09-25T08:30:00Z",
+            "local_timestamp": "2026-09-25 12:30:00+04:00",
+            "timezone": "Asia/Baku",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_St4SXfGd/FP3/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_St4SXfGd/FP3/"
+          },
+          {
+            "code": "Q",
+            "title": "Qualifying",
+            "sessions": [
+              {
+                "id": "session_NlGj1pYz",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_NlGj1pYz/",
+                "number": 4,
+                "type": "Q1",
+                "type_display": "Qualifying One",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_I7V7ZNdt",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_I7V7ZNdt/",
+                "number": 5,
+                "type": "Q2",
+                "type_display": "Qualifying Two",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_LwlNpzDF",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_LwlNpzDF/",
+                "number": 6,
+                "type": "Q3",
+                "type_display": "Qualifying Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-09-25T12:00:00Z",
+            "local_timestamp": "2026-09-25 16:00:00+04:00",
+            "timezone": "Asia/Baku",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_St4SXfGd/Q/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_St4SXfGd/Q/"
+          },
+          {
+            "code": "R",
+            "title": "Race",
+            "sessions": [
+              {
+                "id": "session_VoBKhhms",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_VoBKhhms/",
+                "number": 7,
+                "type": "R",
+                "type_display": "Race",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-09-26T11:00:00Z",
+            "local_timestamp": "2026-09-26 15:00:00+04:00",
+            "timezone": "Asia/Baku",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_St4SXfGd/R/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_St4SXfGd/R/"
+          }
+        ]
+      },
+      {
+        "round": {
+          "id": "round_2DxcilOU",
+          "url": "https://api.jolpi.ca/f1/alpha/core/rounds/round_2DxcilOU/",
+          "number": 16,
+          "name": "Bahrain Grand Prix in Malaysia",
+          "is_cancelled": false,
+          "race_number": 1165,
+          "wikipedia": "https://en.wikipedia.org/wiki/2026_Bahrain_Grand_Prix"
+        },
+        "circuit": {
+          "id": "circuit_tqQTg7rI",
+          "url": "https://api.jolpi.ca/f1/alpha/core/circuits/circuit_tqQTg7rI/",
+          "name": "Sepang International Circuit",
+          "locality": "Kuala Lumpur",
+          "country_code": "MYS",
+          "country": "Malaysia",
+          "latitude": 2.76083,
+          "longitude": 101.738,
+          "altitude": 18,
+          "wikipedia": "https://en.wikipedia.org/wiki/Sepang_International_Circuit"
+        },
+        "schedule": [
+          {
+            "code": "FP1",
+            "title": "Practice 1",
+            "sessions": [
+              {
+                "id": "session_T7WGcI4n",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_T7WGcI4n/",
+                "number": 1,
+                "type": "FP1",
+                "type_display": "Practice One",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-10-02T04:30:00Z",
+            "local_timestamp": "2026-10-02 12:30:00+08:00",
+            "timezone": "Asia/Kuala_Lumpur",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_2DxcilOU/FP1/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_2DxcilOU/FP1/"
+          },
+          {
+            "code": "FP2",
+            "title": "Practice 2",
+            "sessions": [
+              {
+                "id": "session_wkIByUuW",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_wkIByUuW/",
+                "number": 2,
+                "type": "FP2",
+                "type_display": "Practice Two",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-10-02T08:00:00Z",
+            "local_timestamp": "2026-10-02 16:00:00+08:00",
+            "timezone": "Asia/Kuala_Lumpur",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_2DxcilOU/FP2/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_2DxcilOU/FP2/"
+          },
+          {
+            "code": "FP3",
+            "title": "Practice 3",
+            "sessions": [
+              {
+                "id": "session_G6wHpij8",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_G6wHpij8/",
+                "number": 3,
+                "type": "FP3",
+                "type_display": "Practice Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-10-03T04:30:00Z",
+            "local_timestamp": "2026-10-03 12:30:00+08:00",
+            "timezone": "Asia/Kuala_Lumpur",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_2DxcilOU/FP3/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_2DxcilOU/FP3/"
+          },
+          {
+            "code": "Q",
+            "title": "Qualifying",
+            "sessions": [
+              {
+                "id": "session_vQOaAVFp",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_vQOaAVFp/",
+                "number": 4,
+                "type": "Q1",
+                "type_display": "Qualifying One",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_ehO9TGfe",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_ehO9TGfe/",
+                "number": 5,
+                "type": "Q2",
+                "type_display": "Qualifying Two",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_Eyze81Zb",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_Eyze81Zb/",
+                "number": 6,
+                "type": "Q3",
+                "type_display": "Qualifying Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-10-03T08:00:00Z",
+            "local_timestamp": "2026-10-03 16:00:00+08:00",
+            "timezone": "Asia/Kuala_Lumpur",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_2DxcilOU/Q/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_2DxcilOU/Q/"
+          },
+          {
+            "code": "R",
+            "title": "Race",
+            "sessions": [
+              {
+                "id": "session_1DrDcwnp",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_1DrDcwnp/",
+                "number": 7,
+                "type": "R",
+                "type_display": "Race",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-10-04T07:00:00Z",
+            "local_timestamp": "2026-10-04 15:00:00+08:00",
+            "timezone": "Asia/Kuala_Lumpur",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_2DxcilOU/R/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_2DxcilOU/R/"
+          }
+        ]
+      },
+      {
+        "round": {
+          "id": "round_nxOKfUxB",
+          "url": "https://api.jolpi.ca/f1/alpha/core/rounds/round_nxOKfUxB/",
+          "number": 17,
+          "name": "Singapore Grand Prix",
+          "is_cancelled": false,
+          "race_number": 1166,
+          "wikipedia": "https://en.wikipedia.org/wiki/2026_Singapore_Grand_Prix"
+        },
+        "circuit": {
+          "id": "circuit_DAiie4ft",
+          "url": "https://api.jolpi.ca/f1/alpha/core/circuits/circuit_DAiie4ft/",
+          "name": "Marina Bay Street Circuit",
+          "locality": "Marina Bay",
+          "country_code": "SGP",
+          "country": "Singapore",
+          "latitude": 1.2914,
+          "longitude": 103.864,
+          "altitude": 18,
+          "wikipedia": "https://en.wikipedia.org/wiki/Marina_Bay_Street_Circuit"
+        },
+        "schedule": [
+          {
+            "code": "FP1",
+            "title": "Practice 1",
+            "sessions": [
+              {
+                "id": "session_0EjgZzkY",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_0EjgZzkY/",
+                "number": 1,
+                "type": "FP1",
+                "type_display": "Practice One",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-10-09T08:30:00Z",
+            "local_timestamp": "2026-10-09 16:30:00+08:00",
+            "timezone": "Asia/Singapore",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_nxOKfUxB/FP1/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_nxOKfUxB/FP1/"
+          },
+          {
+            "code": "SQ",
+            "title": "Sprint Qualifying",
+            "sessions": [
+              {
+                "id": "session_TXKnuu16",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_TXKnuu16/",
+                "number": 2,
+                "type": "SQ1",
+                "type_display": "Sprint Qualifying One",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_Qw4R9xiA",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_Qw4R9xiA/",
+                "number": 3,
+                "type": "SQ2",
+                "type_display": "Sprint Qualifying Two",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_JwVeLHvH",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_JwVeLHvH/",
+                "number": 4,
+                "type": "SQ3",
+                "type_display": "Sprint Qualifying Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-10-09T12:30:00Z",
+            "local_timestamp": "2026-10-09 20:30:00+08:00",
+            "timezone": "Asia/Singapore",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_nxOKfUxB/SQ/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_nxOKfUxB/SQ/"
+          },
+          {
+            "code": "SR",
+            "title": "Sprint Race",
+            "sessions": [
+              {
+                "id": "session_KoIcSFvz",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_KoIcSFvz/",
+                "number": 5,
+                "type": "SR",
+                "type_display": "Sprint Race",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-10-10T09:00:00Z",
+            "local_timestamp": "2026-10-10 17:00:00+08:00",
+            "timezone": "Asia/Singapore",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_nxOKfUxB/SR/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_nxOKfUxB/SR/"
+          },
+          {
+            "code": "Q",
+            "title": "Qualifying",
+            "sessions": [
+              {
+                "id": "session_UKGSNyjM",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_UKGSNyjM/",
+                "number": 6,
+                "type": "Q1",
+                "type_display": "Qualifying One",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_zFA4Arxj",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_zFA4Arxj/",
+                "number": 7,
+                "type": "Q2",
+                "type_display": "Qualifying Two",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_qLLPSsbH",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_qLLPSsbH/",
+                "number": 8,
+                "type": "Q3",
+                "type_display": "Qualifying Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-10-10T13:00:00Z",
+            "local_timestamp": "2026-10-10 21:00:00+08:00",
+            "timezone": "Asia/Singapore",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_nxOKfUxB/Q/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_nxOKfUxB/Q/"
+          },
+          {
+            "code": "R",
+            "title": "Race",
+            "sessions": [
+              {
+                "id": "session_mX6LKHiG",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_mX6LKHiG/",
+                "number": 9,
+                "type": "R",
+                "type_display": "Race",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-10-11T12:00:00Z",
+            "local_timestamp": "2026-10-11 20:00:00+08:00",
+            "timezone": "Asia/Singapore",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_nxOKfUxB/R/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_nxOKfUxB/R/"
+          }
+        ]
+      },
+      {
+        "round": {
+          "id": "round_K2Oe8smo",
+          "url": "https://api.jolpi.ca/f1/alpha/core/rounds/round_K2Oe8smo/",
+          "number": 18,
+          "name": "United States Grand Prix",
+          "is_cancelled": false,
+          "race_number": 1167,
+          "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Grand_Prix"
+        },
+        "circuit": {
+          "id": "circuit_C8L45nCq",
+          "url": "https://api.jolpi.ca/f1/alpha/core/circuits/circuit_C8L45nCq/",
+          "name": "Circuit of the Americas",
+          "locality": "Austin",
+          "country_code": "USA",
+          "country": "USA",
+          "latitude": 30.1328,
+          "longitude": -97.6411,
+          "altitude": 161,
+          "wikipedia": "https://en.wikipedia.org/wiki/Circuit_of_the_Americas"
+        },
+        "schedule": [
+          {
+            "code": "FP1",
+            "title": "Practice 1",
+            "sessions": [
+              {
+                "id": "session_M7MuG6Eb",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_M7MuG6Eb/",
+                "number": 1,
+                "type": "FP1",
+                "type_display": "Practice One",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-10-23T17:30:00Z",
+            "local_timestamp": "2026-10-23 12:30:00-05:00",
+            "timezone": "America/Chicago",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_K2Oe8smo/FP1/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_K2Oe8smo/FP1/"
+          },
+          {
+            "code": "FP2",
+            "title": "Practice 2",
+            "sessions": [
+              {
+                "id": "session_5hEDlQzi",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_5hEDlQzi/",
+                "number": 2,
+                "type": "FP2",
+                "type_display": "Practice Two",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-10-23T21:00:00Z",
+            "local_timestamp": "2026-10-23 16:00:00-05:00",
+            "timezone": "America/Chicago",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_K2Oe8smo/FP2/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_K2Oe8smo/FP2/"
+          },
+          {
+            "code": "FP3",
+            "title": "Practice 3",
+            "sessions": [
+              {
+                "id": "session_Pc518EYQ",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_Pc518EYQ/",
+                "number": 3,
+                "type": "FP3",
+                "type_display": "Practice Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-10-24T17:30:00Z",
+            "local_timestamp": "2026-10-24 12:30:00-05:00",
+            "timezone": "America/Chicago",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_K2Oe8smo/FP3/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_K2Oe8smo/FP3/"
+          },
+          {
+            "code": "Q",
+            "title": "Qualifying",
+            "sessions": [
+              {
+                "id": "session_mmOG1ruT",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_mmOG1ruT/",
+                "number": 4,
+                "type": "Q1",
+                "type_display": "Qualifying One",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_CQzFRZZ7",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_CQzFRZZ7/",
+                "number": 5,
+                "type": "Q2",
+                "type_display": "Qualifying Two",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_ZoqBn0Wh",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_ZoqBn0Wh/",
+                "number": 6,
+                "type": "Q3",
+                "type_display": "Qualifying Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-10-24T21:00:00Z",
+            "local_timestamp": "2026-10-24 16:00:00-05:00",
+            "timezone": "America/Chicago",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_K2Oe8smo/Q/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_K2Oe8smo/Q/"
+          },
+          {
+            "code": "R",
+            "title": "Race",
+            "sessions": [
+              {
+                "id": "session_ZksoubZd",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_ZksoubZd/",
+                "number": 7,
+                "type": "R",
+                "type_display": "Race",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-10-25T20:00:00Z",
+            "local_timestamp": "2026-10-25 15:00:00-05:00",
+            "timezone": "America/Chicago",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_K2Oe8smo/R/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_K2Oe8smo/R/"
+          }
+        ]
+      },
+      {
+        "round": {
+          "id": "round_FoE51DGC",
+          "url": "https://api.jolpi.ca/f1/alpha/core/rounds/round_FoE51DGC/",
+          "number": 19,
+          "name": "Mexico City Grand Prix",
+          "is_cancelled": false,
+          "race_number": 1168,
+          "wikipedia": "https://en.wikipedia.org/wiki/2026_Mexico_City_Grand_Prix"
+        },
+        "circuit": {
+          "id": "circuit_xmtY0hcp",
+          "url": "https://api.jolpi.ca/f1/alpha/core/circuits/circuit_xmtY0hcp/",
+          "name": "Aut├│dromo Hermanos Rodr├¡guez",
+          "locality": "Mexico City",
+          "country_code": "MEX",
+          "country": "Mexico",
+          "latitude": 19.4042,
+          "longitude": -99.0907,
+          "altitude": 2227,
+          "wikipedia": "https://en.wikipedia.org/wiki/Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez"
+        },
+        "schedule": [
+          {
+            "code": "FP1",
+            "title": "Practice 1",
+            "sessions": [
+              {
+                "id": "session_Tv9neP7D",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_Tv9neP7D/",
+                "number": 1,
+                "type": "FP1",
+                "type_display": "Practice One",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-10-30T18:30:00Z",
+            "local_timestamp": "2026-10-30 12:30:00-06:00",
+            "timezone": "America/Mexico_City",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_FoE51DGC/FP1/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_FoE51DGC/FP1/"
+          },
+          {
+            "code": "FP2",
+            "title": "Practice 2",
+            "sessions": [
+              {
+                "id": "session_kUTEWG0A",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_kUTEWG0A/",
+                "number": 2,
+                "type": "FP2",
+                "type_display": "Practice Two",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-10-30T22:00:00Z",
+            "local_timestamp": "2026-10-30 16:00:00-06:00",
+            "timezone": "America/Mexico_City",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_FoE51DGC/FP2/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_FoE51DGC/FP2/"
+          },
+          {
+            "code": "FP3",
+            "title": "Practice 3",
+            "sessions": [
+              {
+                "id": "session_qz9ehZn2",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_qz9ehZn2/",
+                "number": 3,
+                "type": "FP3",
+                "type_display": "Practice Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-10-31T17:30:00Z",
+            "local_timestamp": "2026-10-31 11:30:00-06:00",
+            "timezone": "America/Mexico_City",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_FoE51DGC/FP3/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_FoE51DGC/FP3/"
+          },
+          {
+            "code": "Q",
+            "title": "Qualifying",
+            "sessions": [
+              {
+                "id": "session_t2fnD5Xj",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_t2fnD5Xj/",
+                "number": 4,
+                "type": "Q1",
+                "type_display": "Qualifying One",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_U3Nl2rH9",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_U3Nl2rH9/",
+                "number": 5,
+                "type": "Q2",
+                "type_display": "Qualifying Two",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_6poH05TX",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_6poH05TX/",
+                "number": 6,
+                "type": "Q3",
+                "type_display": "Qualifying Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-10-31T21:00:00Z",
+            "local_timestamp": "2026-10-31 15:00:00-06:00",
+            "timezone": "America/Mexico_City",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_FoE51DGC/Q/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_FoE51DGC/Q/"
+          },
+          {
+            "code": "R",
+            "title": "Race",
+            "sessions": [
+              {
+                "id": "session_VMDORW9V",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_VMDORW9V/",
+                "number": 7,
+                "type": "R",
+                "type_display": "Race",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-11-01T20:00:00Z",
+            "local_timestamp": "2026-11-01 14:00:00-06:00",
+            "timezone": "America/Mexico_City",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_FoE51DGC/R/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_FoE51DGC/R/"
+          }
+        ]
+      },
+      {
+        "round": {
+          "id": "round_h4DL0SNq",
+          "url": "https://api.jolpi.ca/f1/alpha/core/rounds/round_h4DL0SNq/",
+          "number": 20,
+          "name": "Brazilian Grand Prix",
+          "is_cancelled": false,
+          "race_number": 1169,
+          "wikipedia": "https://en.wikipedia.org/wiki/2026_Brazilian_Grand_Prix"
+        },
+        "circuit": {
+          "id": "circuit_tpDerpEj",
+          "url": "https://api.jolpi.ca/f1/alpha/core/circuits/circuit_tpDerpEj/",
+          "name": "Aut├│dromo Jos├⌐ Carlos Pace",
+          "locality": "S├úo Paulo",
+          "country_code": "BRA",
+          "country": "Brazil",
+          "latitude": -23.7036,
+          "longitude": -46.6997,
+          "altitude": 785,
+          "wikipedia": "https://en.wikipedia.org/wiki/Interlagos_Circuit"
+        },
+        "schedule": [
+          {
+            "code": "FP1",
+            "title": "Practice 1",
+            "sessions": [
+              {
+                "id": "session_hPGJmSY5",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_hPGJmSY5/",
+                "number": 1,
+                "type": "FP1",
+                "type_display": "Practice One",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-11-06T15:30:00Z",
+            "local_timestamp": "2026-11-06 12:30:00-03:00",
+            "timezone": "America/Sao_Paulo",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_h4DL0SNq/FP1/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_h4DL0SNq/FP1/"
+          },
+          {
+            "code": "FP2",
+            "title": "Practice 2",
+            "sessions": [
+              {
+                "id": "session_gxX89P2I",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_gxX89P2I/",
+                "number": 2,
+                "type": "FP2",
+                "type_display": "Practice Two",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-11-06T19:00:00Z",
+            "local_timestamp": "2026-11-06 16:00:00-03:00",
+            "timezone": "America/Sao_Paulo",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_h4DL0SNq/FP2/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_h4DL0SNq/FP2/"
+          },
+          {
+            "code": "FP3",
+            "title": "Practice 3",
+            "sessions": [
+              {
+                "id": "session_QAX8UWzH",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_QAX8UWzH/",
+                "number": 3,
+                "type": "FP3",
+                "type_display": "Practice Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-11-07T14:30:00Z",
+            "local_timestamp": "2026-11-07 11:30:00-03:00",
+            "timezone": "America/Sao_Paulo",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_h4DL0SNq/FP3/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_h4DL0SNq/FP3/"
+          },
+          {
+            "code": "Q",
+            "title": "Qualifying",
+            "sessions": [
+              {
+                "id": "session_NCUYfJW1",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_NCUYfJW1/",
+                "number": 4,
+                "type": "Q1",
+                "type_display": "Qualifying One",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_qxeiihgs",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_qxeiihgs/",
+                "number": 5,
+                "type": "Q2",
+                "type_display": "Qualifying Two",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_a6MDmUbi",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_a6MDmUbi/",
+                "number": 6,
+                "type": "Q3",
+                "type_display": "Qualifying Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-11-07T18:00:00Z",
+            "local_timestamp": "2026-11-07 15:00:00-03:00",
+            "timezone": "America/Sao_Paulo",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_h4DL0SNq/Q/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_h4DL0SNq/Q/"
+          },
+          {
+            "code": "R",
+            "title": "Race",
+            "sessions": [
+              {
+                "id": "session_G95EFMku",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_G95EFMku/",
+                "number": 7,
+                "type": "R",
+                "type_display": "Race",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-11-08T17:00:00Z",
+            "local_timestamp": "2026-11-08 14:00:00-03:00",
+            "timezone": "America/Sao_Paulo",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_h4DL0SNq/R/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_h4DL0SNq/R/"
+          }
+        ]
+      },
+      {
+        "round": {
+          "id": "round_iNZBT7AE",
+          "url": "https://api.jolpi.ca/f1/alpha/core/rounds/round_iNZBT7AE/",
+          "number": 21,
+          "name": "Las Vegas Grand Prix",
+          "is_cancelled": false,
+          "race_number": 1170,
+          "wikipedia": "https://en.wikipedia.org/wiki/2026_Las_Vegas_Grand_Prix"
+        },
+        "circuit": {
+          "id": "circuit_MGz9yps6",
+          "url": "https://api.jolpi.ca/f1/alpha/core/circuits/circuit_MGz9yps6/",
+          "name": "Las Vegas Strip Street Circuit",
+          "locality": "Las Vegas",
+          "country_code": "USA",
+          "country": "USA",
+          "latitude": 36.1147,
+          "longitude": -115.173,
+          "altitude": 642,
+          "wikipedia": "https://en.wikipedia.org/wiki/Las_Vegas_Grand_Prix#Circuit"
+        },
+        "schedule": [
+          {
+            "code": "FP1",
+            "title": "Practice 1",
+            "sessions": [
+              {
+                "id": "session_VYwy0ftD",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_VYwy0ftD/",
+                "number": 1,
+                "type": "FP1",
+                "type_display": "Practice One",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-11-20T00:30:00Z",
+            "local_timestamp": "2026-11-19 16:30:00-08:00",
+            "timezone": "America/Los_Angeles",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_iNZBT7AE/FP1/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_iNZBT7AE/FP1/"
+          },
+          {
+            "code": "FP2",
+            "title": "Practice 2",
+            "sessions": [
+              {
+                "id": "session_lLHUWpwp",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_lLHUWpwp/",
+                "number": 2,
+                "type": "FP2",
+                "type_display": "Practice Two",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-11-20T04:00:00Z",
+            "local_timestamp": "2026-11-19 20:00:00-08:00",
+            "timezone": "America/Los_Angeles",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_iNZBT7AE/FP2/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_iNZBT7AE/FP2/"
+          },
+          {
+            "code": "FP3",
+            "title": "Practice 3",
+            "sessions": [
+              {
+                "id": "session_7fga8xbV",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_7fga8xbV/",
+                "number": 3,
+                "type": "FP3",
+                "type_display": "Practice Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-11-21T00:30:00Z",
+            "local_timestamp": "2026-11-20 16:30:00-08:00",
+            "timezone": "America/Los_Angeles",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_iNZBT7AE/FP3/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_iNZBT7AE/FP3/"
+          },
+          {
+            "code": "Q",
+            "title": "Qualifying",
+            "sessions": [
+              {
+                "id": "session_o2sWWVPP",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_o2sWWVPP/",
+                "number": 4,
+                "type": "Q1",
+                "type_display": "Qualifying One",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_nz1bwImp",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_nz1bwImp/",
+                "number": 5,
+                "type": "Q2",
+                "type_display": "Qualifying Two",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_ME5xJgQ9",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_ME5xJgQ9/",
+                "number": 6,
+                "type": "Q3",
+                "type_display": "Qualifying Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-11-21T04:00:00Z",
+            "local_timestamp": "2026-11-20 20:00:00-08:00",
+            "timezone": "America/Los_Angeles",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_iNZBT7AE/Q/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_iNZBT7AE/Q/"
+          },
+          {
+            "code": "R",
+            "title": "Race",
+            "sessions": [
+              {
+                "id": "session_YSTvc7Zm",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_YSTvc7Zm/",
+                "number": 7,
+                "type": "R",
+                "type_display": "Race",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-11-22T04:00:00Z",
+            "local_timestamp": "2026-11-21 20:00:00-08:00",
+            "timezone": "America/Los_Angeles",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_iNZBT7AE/R/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_iNZBT7AE/R/"
+          }
+        ]
+      },
+      {
+        "round": {
+          "id": "round_GLPBnOq8",
+          "url": "https://api.jolpi.ca/f1/alpha/core/rounds/round_GLPBnOq8/",
+          "number": 22,
+          "name": "Qatar Grand Prix",
+          "is_cancelled": false,
+          "race_number": 1171,
+          "wikipedia": "https://en.wikipedia.org/wiki/2026_Qatar_Grand_Prix"
+        },
+        "circuit": {
+          "id": "circuit_2ZoWBxNn",
+          "url": "https://api.jolpi.ca/f1/alpha/core/circuits/circuit_2ZoWBxNn/",
+          "name": "Losail International Circuit",
+          "locality": "Lusail",
+          "country_code": "QAT",
+          "country": "Qatar",
+          "latitude": 25.49,
+          "longitude": 51.4542,
+          "altitude": 12,
+          "wikipedia": "https://en.wikipedia.org/wiki/Lusail_International_Circuit"
+        },
+        "schedule": [
+          {
+            "code": "FP1",
+            "title": "Practice 1",
+            "sessions": [
+              {
+                "id": "session_Q0Y38YKq",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_Q0Y38YKq/",
+                "number": 1,
+                "type": "FP1",
+                "type_display": "Practice One",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-11-27T13:30:00Z",
+            "local_timestamp": "2026-11-27 16:30:00+03:00",
+            "timezone": "Asia/Qatar",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_GLPBnOq8/FP1/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_GLPBnOq8/FP1/"
+          },
+          {
+            "code": "FP2",
+            "title": "Practice 2",
+            "sessions": [
+              {
+                "id": "session_dkD3W111",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_dkD3W111/",
+                "number": 2,
+                "type": "FP2",
+                "type_display": "Practice Two",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-11-27T17:00:00Z",
+            "local_timestamp": "2026-11-27 20:00:00+03:00",
+            "timezone": "Asia/Qatar",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_GLPBnOq8/FP2/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_GLPBnOq8/FP2/"
+          },
+          {
+            "code": "FP3",
+            "title": "Practice 3",
+            "sessions": [
+              {
+                "id": "session_WUrgPVER",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_WUrgPVER/",
+                "number": 3,
+                "type": "FP3",
+                "type_display": "Practice Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-11-28T14:30:00Z",
+            "local_timestamp": "2026-11-28 17:30:00+03:00",
+            "timezone": "Asia/Qatar",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_GLPBnOq8/FP3/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_GLPBnOq8/FP3/"
+          },
+          {
+            "code": "Q",
+            "title": "Qualifying",
+            "sessions": [
+              {
+                "id": "session_CSxpsCzO",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_CSxpsCzO/",
+                "number": 4,
+                "type": "Q1",
+                "type_display": "Qualifying One",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_rILCjiN7",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_rILCjiN7/",
+                "number": 5,
+                "type": "Q2",
+                "type_display": "Qualifying Two",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_XwiBeWPp",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_XwiBeWPp/",
+                "number": 6,
+                "type": "Q3",
+                "type_display": "Qualifying Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-11-28T18:00:00Z",
+            "local_timestamp": "2026-11-28 21:00:00+03:00",
+            "timezone": "Asia/Qatar",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_GLPBnOq8/Q/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_GLPBnOq8/Q/"
+          },
+          {
+            "code": "R",
+            "title": "Race",
+            "sessions": [
+              {
+                "id": "session_gRdTWUcq",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_gRdTWUcq/",
+                "number": 7,
+                "type": "R",
+                "type_display": "Race",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-11-29T16:00:00Z",
+            "local_timestamp": "2026-11-29 19:00:00+03:00",
+            "timezone": "Asia/Qatar",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_GLPBnOq8/R/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_GLPBnOq8/R/"
+          }
+        ]
+      },
+      {
+        "round": {
+          "id": "round_rrpq1Fex",
+          "url": "https://api.jolpi.ca/f1/alpha/core/rounds/round_rrpq1Fex/",
+          "number": 23,
+          "name": "Abu Dhabi Grand Prix",
+          "is_cancelled": false,
+          "race_number": 1172,
+          "wikipedia": "https://en.wikipedia.org/wiki/2026_Abu_Dhabi_Grand_Prix"
+        },
+        "circuit": {
+          "id": "circuit_6MnmIQpm",
+          "url": "https://api.jolpi.ca/f1/alpha/core/circuits/circuit_6MnmIQpm/",
+          "name": "Yas Marina Circuit",
+          "locality": "Abu Dhabi",
+          "country_code": "ARE",
+          "country": "UAE",
+          "latitude": 24.4672,
+          "longitude": 54.6031,
+          "altitude": 3,
+          "wikipedia": "https://en.wikipedia.org/wiki/Yas_Marina_Circuit"
+        },
+        "schedule": [
+          {
+            "code": "FP1",
+            "title": "Practice 1",
+            "sessions": [
+              {
+                "id": "session_kTDluS4L",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_kTDluS4L/",
+                "number": 1,
+                "type": "FP1",
+                "type_display": "Practice One",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-12-04T09:30:00Z",
+            "local_timestamp": "2026-12-04 13:30:00+04:00",
+            "timezone": "Asia/Dubai",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_rrpq1Fex/FP1/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_rrpq1Fex/FP1/"
+          },
+          {
+            "code": "FP2",
+            "title": "Practice 2",
+            "sessions": [
+              {
+                "id": "session_m6tZQDCS",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_m6tZQDCS/",
+                "number": 2,
+                "type": "FP2",
+                "type_display": "Practice Two",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-12-04T13:00:00Z",
+            "local_timestamp": "2026-12-04 17:00:00+04:00",
+            "timezone": "Asia/Dubai",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_rrpq1Fex/FP2/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_rrpq1Fex/FP2/"
+          },
+          {
+            "code": "FP3",
+            "title": "Practice 3",
+            "sessions": [
+              {
+                "id": "session_UTBWq0iK",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_UTBWq0iK/",
+                "number": 3,
+                "type": "FP3",
+                "type_display": "Practice Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-12-05T10:30:00Z",
+            "local_timestamp": "2026-12-05 14:30:00+04:00",
+            "timezone": "Asia/Dubai",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_rrpq1Fex/FP3/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_rrpq1Fex/FP3/"
+          },
+          {
+            "code": "Q",
+            "title": "Qualifying",
+            "sessions": [
+              {
+                "id": "session_1HS5x0kz",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_1HS5x0kz/",
+                "number": 4,
+                "type": "Q1",
+                "type_display": "Qualifying One",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_qoNumHG4",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_qoNumHG4/",
+                "number": 5,
+                "type": "Q2",
+                "type_display": "Qualifying Two",
+                "is_cancelled": false
+              },
+              {
+                "id": "session_rZzWy4xU",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_rZzWy4xU/",
+                "number": 6,
+                "type": "Q3",
+                "type_display": "Qualifying Three",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-12-05T14:00:00Z",
+            "local_timestamp": "2026-12-05 18:00:00+04:00",
+            "timezone": "Asia/Dubai",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_rrpq1Fex/Q/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_rrpq1Fex/Q/"
+          },
+          {
+            "code": "R",
+            "title": "Race",
+            "sessions": [
+              {
+                "id": "session_BUchE7z9",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_BUchE7z9/",
+                "number": 7,
+                "type": "R",
+                "type_display": "Race",
+                "is_cancelled": false
+              }
+            ],
+            "timestamp": "2026-12-06T13:00:00Z",
+            "local_timestamp": "2026-12-06 17:00:00+04:00",
+            "timezone": "Asia/Dubai",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_rrpq1Fex/R/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_rrpq1Fex/R/"
+          }
+        ]
+      },
+      {
+        "round": {
+          "id": "round_ekzL3LtS",
+          "url": "https://api.jolpi.ca/f1/alpha/core/rounds/round_ekzL3LtS/",
+          "name": "Saudi Arabian Grand Prix",
+          "is_cancelled": true,
+          "wikipedia": "https://en.wikipedia.org/wiki/2026_Saudi_Arabian_Grand_Prix"
+        },
+        "circuit": {
+          "id": "circuit_gtqp9VKv",
+          "url": "https://api.jolpi.ca/f1/alpha/core/circuits/circuit_gtqp9VKv/",
+          "name": "Jeddah Corniche Circuit",
+          "locality": "Jeddah",
+          "country_code": "SAU",
+          "country": "Saudi Arabia",
+          "latitude": 21.6319,
+          "longitude": 39.1044,
+          "altitude": 15,
+          "wikipedia": "https://en.wikipedia.org/wiki/Jeddah_Corniche_Circuit"
+        },
+        "schedule": [
+          {
+            "code": "FP1",
+            "title": "Practice 1",
+            "sessions": [
+              {
+                "id": "session_pfyYRWEc",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_pfyYRWEc/",
+                "type": "FP1",
+                "type_display": "Practice One",
+                "is_cancelled": true
+              }
+            ],
+            "timestamp": "2026-04-17T13:30:00Z",
+            "local_timestamp": "2026-04-17 16:30:00+03:00",
+            "timezone": "Asia/Riyadh",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_ekzL3LtS/FP1/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_ekzL3LtS/FP1/"
+          },
+          {
+            "code": "FP2",
+            "title": "Practice 2",
+            "sessions": [
+              {
+                "id": "session_XuSoBMNK",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_XuSoBMNK/",
+                "type": "FP2",
+                "type_display": "Practice Two",
+                "is_cancelled": true
+              }
+            ],
+            "timestamp": "2026-04-17T17:00:00Z",
+            "local_timestamp": "2026-04-17 20:00:00+03:00",
+            "timezone": "Asia/Riyadh",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_ekzL3LtS/FP2/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_ekzL3LtS/FP2/"
+          },
+          {
+            "code": "FP3",
+            "title": "Practice 3",
+            "sessions": [
+              {
+                "id": "session_HA9oHYWT",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_HA9oHYWT/",
+                "type": "FP3",
+                "type_display": "Practice Three",
+                "is_cancelled": true
+              }
+            ],
+            "timestamp": "2026-04-18T13:30:00Z",
+            "local_timestamp": "2026-04-18 16:30:00+03:00",
+            "timezone": "Asia/Riyadh",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_ekzL3LtS/FP3/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_ekzL3LtS/FP3/"
+          },
+          {
+            "code": "Q",
+            "title": "Qualifying",
+            "sessions": [
+              {
+                "id": "session_OtZkf2bQ",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_OtZkf2bQ/",
+                "type": "Q2",
+                "type_display": "Qualifying Two",
+                "is_cancelled": true
+              },
+              {
+                "id": "session_pqZOb4VR",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_pqZOb4VR/",
+                "type": "Q3",
+                "type_display": "Qualifying Three",
+                "is_cancelled": true
+              },
+              {
+                "id": "session_On4VFVF9",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_On4VFVF9/",
+                "type": "Q1",
+                "type_display": "Qualifying One",
+                "is_cancelled": true
+              }
+            ],
+            "timestamp": "2026-04-18T17:00:00Z",
+            "local_timestamp": "2026-04-18 20:00:00+03:00",
+            "timezone": "Asia/Riyadh",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_ekzL3LtS/Q/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_ekzL3LtS/Q/"
+          },
+          {
+            "code": "R",
+            "title": "Race",
+            "sessions": [
+              {
+                "id": "session_KLzgDnFy",
+                "url": "https://api.jolpi.ca/f1/alpha/core/sessions/session_KLzgDnFy/",
+                "type": "R",
+                "type_display": "Race",
+                "is_cancelled": true
+              }
+            ],
+            "timestamp": "2026-04-19T17:00:00Z",
+            "local_timestamp": "2026-04-19 20:00:00+03:00",
+            "timezone": "Asia/Riyadh",
+            "results_url": "https://api.jolpi.ca/f1/alpha/results/round_ekzL3LtS/R/",
+            "laps_url": "https://api.jolpi.ca/f1/alpha/laps/round_ekzL3LtS/R/"
+          }
+        ]
+      }
+    ]
+  }
+}
